@@ -11,7 +11,6 @@ The designs were created to the following widths:
 
 ### Primary
 
-<<<<<<< HEAD
 - Light red: hsl(0, 100%, 67%)
 - Orangey yellow: hsl(39, 100%, 56%)
 - Green teal: hsl(166, 100%, 37%)
@@ -37,33 +36,14 @@ The designs were created to the following widths:
 ### Notes
 
 Use transparency to get the colour variations necessary to match the design. Hint: look into using `hsla()`.
-=======
-- Tomato: hsl(4, 100%, 67%)
-
-### Neutral
-
-- Dark Slate Grey: hsl(234, 29%, 20%)
-- Charcoal Grey: hsl(235, 18%, 26%)
-- Grey: hsl(231, 7%, 60%)
-- White: hsl(0, 0%, 100%)
->>>>>>> origin/main
 
 ## Typography
 
 ### Body Copy
 
-<<<<<<< HEAD
 - Font size (paragraphs): 18px
 
 ### Font
 
 - Family: [Hanken Grotesk](https://fonts.google.com/specimen/Hanken+Grotesk)
 - Weights: 500, 700, 800
-=======
-- Font size (paragraph): 16px
-
-### Font
-
-- Family: [Roboto](https://fonts.google.com/specimen/Roboto)
-- Weights: 400, 700
->>>>>>> origin/main

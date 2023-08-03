@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+<<<<<<< HEAD
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
@@ -74,6 +75,100 @@
 
     </section>
   </main>
+=======
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/
+  favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+
+<body>
+
+  <!-- Sign-up form start -->
+  <main>
+    <section class="app">
+      <div class="info">
+        <div class="text">
+          <h1>
+            Stay updated!
+          </h1>
+          <p>
+            Join 60,000+ product managers receiving monthly updates on:
+          </p>
+
+          <ul>
+            <li>Product discovery and building what matters</li>
+            <li>Measuring to ensure updates are a success</li>
+            <li>And much more!</li>
+          </ul>
+        </div>
+
+        <div class="subscribe">
+          <div class="email">
+            <div class="email-alert">
+              <h4 id="email-title">
+                Email address
+              </h4>
+              <div>
+                <h4 id="invalid-email"></h4>
+              </div>
+            </div>
+            <input id="email-input" type="email" placeholder="email@company.com">
+            </input>
+          </div>
+          <div class="button">
+            <button id="subscribe-btn">
+              Subscribe to monthly newsletter
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Sign-up form end -->
+      <div class="desktop-image-container">
+        <img src="/assets/images/illustration-sign-up-desktop.svg" alt="signup image">
+      </div>
+      <div class="mobile-image-container">
+        <img src="assets/images/illustration-sign-up-mobile.svg" alt="signup image">
+      </div>
+
+    </section>
+
+  </main>
+  <!-- Success message start -->
+  <div class="success hidden">
+    <div class="container-main">
+      <div class="container-app">
+        <div class="icon">
+          <img src="assets/images/icon-success.svg" alt="success" />
+        </div>
+        <h1>
+          Thanks for subscribing!
+        </h1>
+        <p>
+          A confirmation email has been sent to <span id="email-name">ash@loremcompany.com.</span>
+          Please open it and click the button inside to confirm your subscription.
+        </p>
+        <button id="dismiss-btn">
+          Dismiss message
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Success message end -->
+>>>>>>> origin/main
 </body>
 
 </html>

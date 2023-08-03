@@ -1,0 +1,212 @@
+:root {
+    --Light-red: hsl(0, 100%, 67%);
+    --Orangey-yellow: hsl(39, 100%, 56%);
+    --Green-teal: hsl(166, 100%, 37%);
+    --Cobalt-blue: hsl(234, 85%, 45%);
+    --Light-slate-blue-background: hsl(252, 100%, 67%);
+    --Light-royal-blue-background: hsl(241, 81%, 54%);
+    --Violet-blue-circle: hsla(256, 72%, 46%, 1);
+    --Persian-blue-circle: hsla(241, 72%, 46%, 0);
+    --White: hsl(0, 0%, 100%);
+    --Pale-blue: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%);
+    --Dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+* {
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    height: 100vh;
+    width: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--White);
+    border-radius: 4rem;
+    box-shadow: 2rem 2rem 1rem hsla(241, 81%, 54%, .05);
+}
+
+.result {
+    color: var(--White);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    gap: 2rem;
+    border-radius: 2rem;
+    padding: 2rem 0;
+
+
+}
+
+.result-title {
+    color: var(--Light-lavender);
+    font-size: 1.4rem;
+}
+
+.circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, hsla(241, 81%, 54%, .3), hsla(256, 72%, 46%, .9));
+    border-radius: 50%;
+    width: 60%;
+    height: 100%;
+    gap: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.circle h1 {
+    font-size: 4rem;
+
+}
+
+.circle p {
+    color: var(--Light-slate-blue-background);
+    margin-top: -.5rem;
+}
+
+.explanation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.explanation h2 {
+    font-size: 1.5rem;
+}
+
+.explanation p {
+    text-align: center;
+    font-size: .8rem;
+    opacity: .6;
+    width: 70%;
+}
+
+
+/* RIGHT HAND SIDE OF APP */
+.summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 0 4rem 4rem 0;
+    background-color: var(--White);
+    gap: 1.5rem;
+    padding: 2rem 0;
+}
+
+.summary h2 {
+    color: var(--Dark-gray-blue);
+    text-align: left;
+    opacity: .9;
+    font-size: 1.4rem;
+}
+
+.summary-title {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.items {
+    display: flex;
+    gap: .5rem;
+}
+
+h4 {
+    color: hsl(224, 30%, 27%);
+}
+
+h4 span {
+    color: #98A1A7;
+}
+
+.reaction {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: hsla(0, 100%, 67%, .1);
+    color: hsla(0, 100%, 67%, .8);
+    border-radius: .5rem;
+    padding: .8rem;
+    opacity: .8;
+}
+
+.memory {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: hsla(39, 100%, 56%, .1);
+    color: hsla(39, 100%, 56%, .8);
+    border-radius: .5rem;
+    padding: .8rem;
+    opacity: .8;
+}
+
+.verbal {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: hsla(166, 100%, 37%, .1);
+    color: hsla(166, 100%, 37%, .9);
+    border-radius: .5rem;
+    padding: .8rem;
+    opacity: .8;
+}
+
+.visual {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: hsla(234, 85%, 45%, .1);
+    color: hsla(234, 85%, 45%, .9);
+    border-radius: .5rem;
+    padding: .8rem;
+    opacity: .8;
+}
+
+button {
+    width: 80%;
+    border-radius: 3rem;
+    padding: .7rem;
+    color: var(--White);
+    border: none;
+    background-color: var(--Dark-gray-blue);
+
+}
+
+
+
+/* ### Notes
+Use transparency to get the colour variations necessary to match the design. Hint: look into using `hsla()`. */
